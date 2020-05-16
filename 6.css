@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+	background: #6DC3E4;
+}
+
+.container, h1  {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cover {
+    padding: 30px;
+    border: 1px solid #c0c0c0;
+    min-height: 800px;
+    position: relative;
+}
+
+.card {
+    width: 80%;
+    height: 80%;
+    box-shadow: 3px 3px 5px #333;
+    position: absolute;
+    transition: all ease 10s;
+    left: 10%;
+    top: 15%;
+	cursor:pointer;
+}   
+
+.go {
+    left: -99999px;
+}
